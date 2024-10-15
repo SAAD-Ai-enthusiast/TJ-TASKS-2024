@@ -1,6 +1,7 @@
 public class Q3 {
     public static int rangeBitwiseAnd(int left, int right) {
        //write your code here 
+        return (left & (right*2)); 
     }
 
     public static void main(String[] args) {
